@@ -11,8 +11,8 @@
     height: 100px;
     padding: 45px 20px 25px 20px;
     display: flex;
-    border-bottom: 1px solid #707070;
     font-size:20px;
+    background-color:#F7F7F7 ;
 }
 
 .logo a {
@@ -72,6 +72,7 @@
     background-color: #178A1F;
     color: white;
     cursor: pointer;
+    margin: 9px 0;
 }
 
 .btn.btn_2{
@@ -83,6 +84,7 @@
     background-color: #F7F7F7;
     color: black;
     text-align: center;
+    height: 315px;
 }
 
 .footer_inner{
@@ -111,7 +113,7 @@
 .inputs{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin:40px 0 60px;
   }
   .inputs>div:first-child{
     width: 60%;
@@ -123,7 +125,12 @@
     outline: none;
     border: 2px solid #707070;
     opacity: 0.4;
-    margin: 10px 0;
+    margin: 9px 0;
+    height: 50px;
+  }
+  
+  .message{
+    height: 100px;
   }
 
 @media (min-width:330px) and (max-width: 767px) {
@@ -131,7 +138,6 @@
         display: block;
         width: 30px;
         padding: 5px;
-        border-radius: 5px;
     }
     .container{
         width: 85%;
@@ -151,10 +157,14 @@
         padding: 12px 0 17.5px 22px;
         align-items: center;
         height: auto;
+        background-color: white;
     }
-
+    .header_col{
+        background: #F7F7F7;
+    }
     .header.response {
         flex-direction: column;
+        background-color: #F7F7F7;
     }
 
     .nav_li {
@@ -178,7 +188,17 @@
 
     .btn {
         height: 43px;
+        min-width: 271px;
+        width: 100%;
+    }
 
+    .stadium_btns{
+        width: 271px;
+        margin: 50px auto 0;    
+    }
+
+    .footer{
+        height: 320px;
     }
 
     .footer_inner{
@@ -189,9 +209,15 @@
         width: 182px;
         text-align: left;
     }
-    .inputs_inp div{
+    .inputs>div:first-child{
         width: 80%;    
     }
+
+    .inputs_inp{
+        height: 43px;
+        margin: 12.5px 0;
+    }
+
 }
 
 @media (min-width:330px)and (max-width: 1023px){
@@ -199,6 +225,7 @@
         height: 50px;
         font-size: 20px;
     }
+
 }
 
 
@@ -206,6 +233,9 @@
 @media (min-width:767px) and (max-width: 1023px){
     .navigation_li{
         margin:0px 30px;
+    }
+    .footer{
+        height: 296px;
     }
 }
 

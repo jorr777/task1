@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
 
-}
+}contact_us_p
 
 .about_app_inner {
     width: 60%;
@@ -73,16 +73,19 @@
     text-align: center;
 }
 
-
+.about_app_inner_items div{
+    display: flex;
+    justify-content: center;
+}
 
 .about_app_inner_items img {
     margin: 19px 0 35px 0;
 }
 
 .about_app_inner_items p {
+    width: 271px;
     margin-bottom: 40px;
 }
-
 .start_now{
     text-align: center;
     color: white;
@@ -121,24 +124,33 @@
         width: 100%;
         justify-content: center;
     }
+    .about_app_inner{
+        width: 80%;
+    }
 
 }
 
 
 @media (min-width:330px) and (max-width: 767px){
-    .about_stadium_inner {
-        padding: 0;
+    .about_stadium{
+        height: 450px;
+    }
+    .about_app_inner{
+        flex-direction: column;
+    }
+    .about_stadium_title_item {
+        font-size: 32px;
     }
 
-    .about_stadium_title_item {
-        font-size: 31px;
+    .about_stadium_inner{
+        padding: 20px 0 0;
     }
 
     .about_stadium_text {
-        width: 80%;
-        margin: auto;
+        width: 100%;
         font-size: 21px;
         text-align: center;
+        padding: 10px 0;
     }
     .about_app_inner_items{
         margin: 0;
@@ -148,12 +160,17 @@
         display: none;
     }
 
+
 }
 
 
 @media (min-width:768px) and (max-width: 1023px) {
+    .about_stadium_title_item{
+        font-size: 32px;
+        padding: 0;
+    }
     .about_stadium_text {
-        width: 80%;
+        width: 92%;
         margin: auto;
         font-size: 20px;
         text-align: center;
@@ -162,12 +179,21 @@
         width: 40%;
         margin: 0;
     }
+
+    .about_stadium{
+        height: 309px;
+    }
+    .stadium_btns button{
+        width: 65%;
+    }
 }
 
 
 
 @media (min-width:1024px) and (max-width: 1700px){
     .about_stadium_text {
-        width: 80%;
+        width: 85%;
+        font-size: 26px;
     }
+
 }

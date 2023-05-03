@@ -31,7 +31,7 @@
 
 
 
-@media (min-width:330px) and (max-width: 767px) {
+@media (min-width:319px) and (max-width: 767px) {
     .about_the_app_title{
         font-size: 36px;
     }
@@ -56,5 +56,8 @@
     .about_stadium_text{
         font-size:2vw;
         width: 80%;
+    }
+    .btn{
+        width: 100%;
     }
 }
