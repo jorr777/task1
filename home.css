@@ -1,0 +1,165 @@
+.about_stadium {
+    width: 100%;
+    height: 450px;
+    background: url('./img/Untitled-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.about_stadium_inner {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+.about_stadium_title_item {
+    width: 500px;
+    font-size: 52px;
+}
+
+
+
+
+.about_stadium_text {
+    font-size: 36px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.stadium_btns {
+    display: flex;
+    margin-top: 38px;
+}
+
+.stadium_btns button {
+    margin-right: 30px;
+}
+
+.btn_2 {
+    background: none;
+}
+
+.about_app_title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.d {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about_app_inner {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.about_app_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_app_inner_items {
+    margin: 0px 50px;
+    width: 30%;
+    text-align: center;
+}
+
+
+
+.about_app_inner_items img {
+    margin: 19px 0 35px 0;
+}
+
+.about_app_inner_items p {
+    margin-bottom: 40px;
+}
+
+.start_now{
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: #262626;
+    padding: 20px 0;
+    display: flex;
+     justify-content: center;
+}
+
+.start_now h3{
+    margin: 10px 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+@media (min-width:330px) and (max-width: 1023px) {
+
+    .about_stadium_title_item {
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .stadium_btns .btn_2 {
+        display: none;
+    }
+
+    .stadium_btns button {
+        margin: 0;
+    }
+
+    .stadium_btns {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width:330px) and (max-width: 767px){
+    .about_stadium_inner {
+        padding: 0;
+    }
+
+    .about_stadium_title_item {
+        font-size: 36px;
+    }
+
+    .about_stadium_text {
+        width: 80%;
+        margin: auto;
+        font-size: 21px;
+        text-align: center;
+    }
+    .about_app_inner_items{
+        margin: 0;
+        width: 100%;
+    }
+    .about_app_inner_items:last-child{
+        display: none;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .about_stadium_text {
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+    .about_app_inner_items{
+        width: 40%;
+        margin: 0;
+    }
+}
