@@ -50,3 +50,11 @@
         font-size:18px;
     }
 }
+
+
+@media (min-width:1024px)and (max-width: 1700px){
+    .about_stadium_text{
+        font-size:2vw;
+        width: 80%;
+    }
+}

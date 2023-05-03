@@ -16,7 +16,7 @@
 }
 
 .about_stadium_title_item {
-    width: 500px;
+    width: 510px;
     font-size: 52px;
 }
 
@@ -131,7 +131,7 @@
     }
 
     .about_stadium_title_item {
-        font-size: 36px;
+        font-size: 31px;
     }
 
     .about_stadium_text {
@@ -161,5 +161,13 @@
     .about_app_inner_items{
         width: 40%;
         margin: 0;
+    }
+}
+
+
+
+@media (min-width:1024px) and (max-width: 1700px){
+    .about_stadium_text {
+        width: 80%;
     }
 }

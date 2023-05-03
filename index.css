@@ -126,7 +126,6 @@
     margin: 10px 0;
   }
 
-
 @media (min-width:330px) and (max-width: 767px) {
     #menu_bar {
         display: block;
@@ -134,7 +133,9 @@
         padding: 5px;
         border-radius: 5px;
     }
-
+    .container{
+        width: 85%;
+    }
     .logo {
         width: 100%;
         display: flex;
@@ -205,12 +206,6 @@
 @media (min-width:767px) and (max-width: 1023px){
     .navigation_li{
         margin:0px 30px;
-        
     }
 }
 
-@media (min-width:1024px)and (max-width: 1500px){
-    .about_stadium_text{
-        font-size:2vw;
-    }
-}
