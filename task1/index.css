@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    padding: 45px 20px 25px 20px;
+    display: flex;
+    font-size:20px;
+    background-color:#F7F7F7 ;
+}
+
+.logo a {
+    margin: 0px 81px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+
+.navigation_li {
+    margin: 0px 56px;
+}
+
+.navigation_links {
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+}
+
+.navigation_links.nav_loc{
+    color: black;
+    font-weight: bold;
+}
+
+.underline::after {
+     content: '';
+     display: inherit;
+     width: 100px;
+     margin: 2vw auto;
+     border-top: 1px solid #178A1F;
+ }
+
+#menu_bar {
+    width: 20px;
+    display: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.btn {
+    border: none;
+    width: 246px;
+    height: 66px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    border: 2px solid #178A1F;
+    background-color: #178A1F;
+    color: white;
+    cursor: pointer;
+    margin: 9px 0;
+}
+
+.btn.btn_2{
+    background:none;
+}
+
+
+.footer{
+    background-color: #F7F7F7;
+    color: black;
+    text-align: center;
+    height: 315px;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+.footer_left li{
+    padding: 20px 0;
+    text-decoration: none;
+    list-style:none ;
+}
+.footer_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_right div{
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin:40px 0 60px;
+  }
+  .inputs>div:first-child{
+    width: 60%;
+  }
+  
+  .inputs_inp{
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    border: 2px solid #707070;
+    opacity: 0.4;
+    margin: 9px 0;
+    height: 50px;
+  }
+  
+  .message{
+    height: 100px;
+  }
+
+@media (min-width:330px) and (max-width: 767px) {
+    #menu_bar {
+        display: block;
+        width: 30px;
+        padding: 5px;
+    }
+    .container{
+        width: 85%;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    .logo a {
+        margin: 0;
+    }
+
+    .header {
+        padding: 12px 0 17.5px 22px;
+        align-items: center;
+        height: auto;
+        background-color: white;
+    }
+    .header_col{
+        background: #F7F7F7;
+    }
+    .header.response {
+        flex-direction: column;
+        background-color: #F7F7F7;
+    }
+
+    .nav_li {
+        width: 100%;
+        padding: 5px 10px;
+        margin: 0;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navigation.response{
+        display: block;
+    }
+    .navigation_li{
+        margin: 0;
+        padding: 5px 10px;
+    }
+
+    .btn {
+        height: 43px;
+        min-width: 271px;
+        width: 100%;
+    }
+
+    .stadium_btns{
+        width: 271px;
+        margin: 50px auto 0;    
+    }
+
+    .footer{
+        height: 320px;
+    }
+
+    .footer_inner{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .footer_left {
+        width: 182px;
+        text-align: left;
+    }
+    .inputs>div:first-child{
+        width: 80%;    
+    }
+
+    .inputs_inp{
+        height: 43px;
+        margin: 12.5px 0;
+    }
+
+}
+
+@media (min-width:330px)and (max-width: 1023px){
+    .btn{
+        height: 50px;
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (min-width:767px) and (max-width: 1023px){
+    .navigation_li{
+        margin:0px 30px;
+    }
+    .footer{
+        height: 296px;
+    }
+}
+
