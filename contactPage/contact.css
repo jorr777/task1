@@ -1,7 +1,7 @@
 
 .contact_us_inner {
     text-align: center;
-    margin: 87px 0 32px;
+    margin: 90px 0 32px;
     font-size: 52px; 
 }
 
@@ -19,6 +19,8 @@
     font-weight: 300;
 }
 
+
+
 @media (min-width:330px) and (max-width: 767px) {
     .contact_us_text>p{
         width: 100%;
@@ -29,6 +31,9 @@
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
+    .contact_us_inner{
+        font-size: 32px;
+    }
     .contact_us_text>p{
         width: 75%;
         font-size: 18px;

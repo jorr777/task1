@@ -68,7 +68,7 @@
 }
 
 .about_app_inner_items {
-    margin: 0px 50px;
+    margin: 30px;
     width: 30%;
     text-align: center;
 }
@@ -83,8 +83,7 @@
 }
 
 .about_app_inner_items p {
-    width: 271px;
-    margin-bottom: 40px;
+    width: 322px;
 }
 .start_now{
     text-align: center;
@@ -153,7 +152,7 @@
         padding: 10px 0;
     }
     .about_app_inner_items{
-        margin: 0;
+        margin: 35px 0;
         width: 100%;
     }
     .about_app_inner_items:last-child{
